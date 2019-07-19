@@ -203,6 +203,33 @@ background-color: red;
 .person-of-week-content {
   width: 70%;
 }
+#more-links{
+text-align: center;
+margin: 70px;
+}
+#featured-smash-book{
+  display: flex;
+  justify-content: center;
+}
+#design-systems{
+  margin: 25px;
+  margin-right:  60px;
+  background-color: hsl(0, 0%, 25%);
+}
+#design-systems h1{
+  background-color: hsl(0, 0%, 20%);
+}
+#design-systems-picture{
+width: 35%;
+margin-right: 50px;
+background-color: hsl(0, 0%, 25%);
+}
+#featured-smash-book{
+  height: 400px
+}
+#table-of-contents{
+  background-color: hsl(0, 0%, 20%);
+}
 
 @media only screen and (max-width: 600px) {
   body nav ul {
