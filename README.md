@@ -7,6 +7,7 @@ This is a project of the Main HTML/CSS curriculum at Microverse - @microverseinc
 
 [Assignment link]()
 
+![screenshot](./screenshot.png)
 
 Authors:
 
