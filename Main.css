@@ -3,7 +3,6 @@ html {
 }
 body {
   background-color: hsl(0, 0%, 60%);
-  height: 10416px;
   margin: 0;
 }
 body nav {
@@ -23,9 +22,6 @@ body nav ul {
   text-align: center;
   margin: 0 16px;
   color: white;
-}
-body nav li {
-  padding: auto;
 }
 body nav div {
   padding: 16px 28px;
@@ -66,7 +62,7 @@ body nav div {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 700px;
+  height: 400px;
 }
 .promo-sub-content {
   display: flex;
@@ -146,18 +142,24 @@ body nav div {
   background-color: hsl(0, 0%, 60%);
   color: black;
 }
-/* main{
-width: 100%;
-height: 90%;
-background-color: red;
+.guides {
+  display: flex;
+  margin-top: 16px;
 }
-*/
-
-/*
-.main-content{
-    width: 100%;
-    height: 9%;
-} */
+.guides > div {
+  margin: 0 16px;
+}
+.heatmap-list li::before {
+  content: '';
+  height: 1rem;
+  width: 180px;
+  background-color: hsl(0, 0%, 50%);
+  display: inline-block;
+  border-radius: 4px;
+}
+.margin-left-4 {
+  margin-left: 16px;
+}
 .member-ad {
   display: flex;
   justify-content: center;
@@ -200,37 +202,99 @@ background-color: red;
   width: 210px;
   background-color: hsl(0, 0%, 25%);
 }
+.picture-120 {
+  height: 120px;
+  width: 120px;
+  background-color: hsl(0, 0%, 25%);
+  margin-left: 16px;
+  margin-right: 16px;
+}
 .person-of-week-content {
   width: 70%;
 }
-#more-links{
-text-align: center;
-margin: 70px;
+.more-links {
+  text-align: center;
+  margin: 70px;
+  background-color: hsl(0, 0%, 55%);
 }
-#featured-smash-book{
+#featured-smash-book {
   display: flex;
   justify-content: center;
 }
-#design-systems{
+#design-systems {
   margin: 25px;
-  margin-right:  60px;
+  margin-right: 60px;
   background-color: hsl(0, 0%, 25%);
 }
-#design-systems h1{
+#design-systems h1 {
   background-color: hsl(0, 0%, 20%);
 }
-#design-systems-picture{
-width: 35%;
-margin-right: 50px;
-background-color: hsl(0, 0%, 25%);
+#design-systems-picture {
+  width: 35%;
+  margin-right: 50px;
+  background-color: hsl(0, 0%, 25%);
 }
-#featured-smash-book{
-  height: 400px
+#featured-smash-book {
+  height: 400px;
 }
-#table-of-contents{
+#table-of-contents {
   background-color: hsl(0, 0%, 20%);
 }
-
+footer {
+  text-align: center;
+  padding-bottom: 32px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer-menu {
+  height: 4rem;
+  width: 410px;
+  background-color: hsl(0, 0%, 50%);
+  border-radius: 4px;
+  margin-top: 32px;
+}
+footer p {
+  margin: 8px auto;
+  border-radius: 4px;
+}
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+footer ul li::before {
+  content: '';
+  height: 1rem;
+  width: 80px;
+  margin-right: 32px;
+  background-color: hsl(0, 0%, 50%);
+  display: inline-block;
+  border-radius: 4px;
+}
+.width-300 {
+  width: 300px;
+  height: 16px;
+  background-color: hsl(0, 0%, 50%);
+}
+.width-320 {
+  width: 320px;
+  height: 16px;
+  background-color: hsl(0, 0%, 50%);
+}
+.width-240 {
+  width: 240px;
+  height: 16px;
+  background-color: hsl(0, 0%, 50%);
+}
+.width-140 {
+  width: 140px;
+  height: 16px;
+  background-color: hsl(0, 0%, 50%);
+}
 @media only screen and (max-width: 600px) {
   body nav ul {
     display: none;
