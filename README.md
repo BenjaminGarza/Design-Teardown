@@ -11,5 +11,6 @@ This is a project of the Main HTML/CSS curriculum at Microverse - @microverseinc
 
 Authors:
 
+- [@MauricioRobayo](https://github.com/MauricioRobayo)
 - [@BenjaminGarza](https://github.com/BenjaminGarza)
-- [@archemiro](https://github.com/archemiro)
+
